@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<style>
+    div,name,img,rating{
+        display: block;
+        margin: 10px;
+        padding: 20px;
+    }
+    div{
+        border: 2px solid lightblue;
+        background-color:#8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        border-radius: 20px;
+    }
+    img{
+        width: 200px;
+        border-radius: 50px;
+        margin: 0px;
+    }
+    p{
+        font-size: 40px;
+        margin: 0px;
+        text-decoration:underline;
+        font-style: italic;
+    }
+    h6{
+        font-size: 20px;
+        margin: 0px;
+    }
+    h5{
+        font-size: 15px;
+        font-weight:bold;
+        margin: 0px;
+    }
+
+</style>
+<body>
+    <script>
+        async function call() {
+            let response=await fetch("http://localhost:3000/food")
+            let result=await response.json()
+            console.log(result)
+            for(var a of result){
+                let div=document.createElement("div")
+                let name=document.createElement("p")
+                let locations=document.createElement("h5")
+                let rating=document.createElement("h6")
+                let img=document.createElement("img")
+                name.innerHTML=a.name;
+                locations.innerHTML="Location : "+a.location;
+                rating.innerHTML="Rating:   "+a.Rating;
+                img.src=a.image;
+                document.body.appendChild(div);
+                div.append(name,rating,locations,img)
+            }
+        }
+        call()
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<style>
+    div,name,img,rating{
+        display: block;
+        margin: 10px;
+        padding: 20px;
+    }
+    div{
+        border: 2px solid lightblue;
+        background-color:#8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+        border-radius: 20px;
+    }
+    img{
+        width: 200px;
+        border-radius: 50px;
+        margin: 0px;
+    }
+    p{
+        font-size: 40px
+        margin: 0px;
+        text-decoration:underline;
+        font-style: italic;
+    }
+    h6{
+        font-size: 20px;
+        margin: 0px;
+    }
+    h5{
+        font-size: 15px;
+        font-weight:bold;
+        margin: 0px;
+    }
+
+</style>
+<body>
+    <script>
+        async function call() {
+            let response=await fetch("http://localhost:3000/food")
+            let result=await response.json()
+            console.log(result)
+            for(var a of result){
+                let div=document.createElement("div")
+                let name=document.createElement("p")
+                let locations=document.createElement("h5")
+                let rating=document.createElement("h6")
+                let img=document.createElement("img")
+                name.innerHTML=a.name;
+                locations.innerHTML="Location : "+a.location;
+                rating.innerHTML="Rating:   "+a.Rating;
+                img.src=a.image;
+                document.body.appendChild(div);
+                div.append(name,rating,locations,img)
+            }
+        }
+        call()
+    </script>
+</body>
+</html>

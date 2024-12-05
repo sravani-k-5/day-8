@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"American Pizza & Fried Chicken",
+        "location":"Beside Axis Bank, Opp. Suman Colony, West Marredpally Road, Gandhi Nagar, West Marredpally, Secunder",
+        "Rating":"3/5",
+        "image":"https://tse3.mm.bing.net/th?id=OIP.hr_u_O8JfzhI8rUjRV4YYAHaEK&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":2,
+        "name":"Jus Gokool",
+        "location":"No.79/B,Next to Vijaya Bank, West Marredpally, Secunderabad",
+        "Rating":"3.8/5",
+        "image":"https://tse3.mm.bing.net/th?id=OIP.2HtPcFS6dP3Fooyo4LukwwHaFL&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":3,
+        "name":"Madhavi Delux Mess",
+        "location":"Road Number 1, Aswini Colony, West Marredpally, Hyderabad",
+        "Rating":"2/5",
+        "image":"https://tse3.mm.bing.net/th?id=OIP.NY3AiWtYZUn_tUUX80fB1AHaE8&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":4,
+        "name":"Sri Shakthi Bar & Restaurant",
+        "location":"Shop No: 3 - 6 - 187, Plot: 200, Near Srinivasa, Ground Floor, West Marredpally Road, West Marredpal",
+        "Rating":"2.8/5",
+        "image":"https://www.gannett-cdn.com/-mm-/11d1f5a0f30c78e5e42da1f24d951e3266ecd59c/c=0-61-2032-1208/local/-/media/USATODAY/USATODAY/2013/11/23/1385183471001-2-lemeurice-DorchesterCollection.jpg?width=3200&height=1680&fit=crop"
+
+    },
+    {
+        "id":5,
+        "name":"Cafe Coffee Day",
+        "location":"W Marredpally Rd, West Marredpally, Secunderabad",
+        "Rating":"4/5",
+        "image":"https://www.birchrestaurant.com/wp-content/uploads/2022/09/Best-Restaurants-in-Salisbury-MD-Fratellis-Italian-Restaurant.jpg"
+
+    },
+    {
+        "id":6,
+        "name":"Ghazaleh ArabianLebanese and Vegetarian Foods",
+        "location":"Street Number 5, Nehru Nagar, West Marredpally, Hyderabad",
+        "Rating":"4.2/5",
+        "image":"https://tse4.mm.bing.net/th?id=OIP.6GGBa8kJItCZFIyvQZLXWQHaE8&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":7,
+        "name":"Pista House haleem outlet",
+        "location":"Marredpally, Secunderabad",
+        "Rating":"4/5",
+        "image":"https://i.pinimg.com/originals/35/4f/b6/354fb64d4addb7740458519c52687370.jpg"
+
+    },
+    {
+        "id":8,
+        "name":"Hotel Shiva Khashi",
+        "location":"Near Chek Post,, West Marredpally, Secunderabad",
+        "Rating":"5/5",
+        "image":"https://tse4.mm.bing.net/th?id=OIP.c4E4Q2kH8tCnJL0c8zpAnwHaEK&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":9,
+        "name":"Coffee Point",
+        "location":"YWCA of secunderabad, Secunderabad",
+        "Rating":"5/5",
+        "image":"https://tse4.mm.bing.net/th?id=OIP.8153GSELCA7hIAmZtH5UWgHaFj&pid=Api&P=0&h=180"
+
+    },
+    {
+        "id":10,
+        "name":"One Way Chinese Restaurant",
+        "location":"Shop No: 10 - 3 - 62, Near Teacher's Colony, West Marredpally Road, West Marredpally, Secunderabad",
+        "Rating":"4.8/5",
+        "image":"https://tse4.mm.bing.net/th?id=OIP.35SH3jW4Sz2baOHMnkF2LAHaE8&pid=Api&P=0&h=180"
+
+    }
+]
